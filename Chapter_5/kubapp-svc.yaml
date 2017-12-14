@@ -4,7 +4,7 @@ kind: Service
 metadata:
   name: kubapp
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
   # The port this service will be available on
   - port: 80
